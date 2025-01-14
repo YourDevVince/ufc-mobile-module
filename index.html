@@ -1,0 +1,94 @@
+<!DOCTYPE svg PUBLIC “-//W3C//DTD SVG 1.1//EN”
+“http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd”> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fight Card Demo</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+    <header class="header-margin">
+        <div class="header-back-arrow header-icon">
+            <!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+                <path d="M32.1 34.99L17.14 20 32.11 5 27.5.4 7.89 20l19.6 19.6 4.61-4.61z"/>-->
+            </svg>
+        </div>
+        <div class="header-logo">
+            <img src="img/event-logo/ufc.png" alt="UFC">
+        </div>
+        <div class="header-nav header-icon header-icon-selected">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+                <path d="M39.6 37.15v-4.9H20v4.9h19.6zm0-14.7v-4.9H.4v4.9h39.2zm0-14.7v-4.9H.4v4.9h39.2z"/>
+            </svg>
+        </div>
+    </header>
+    <div class="content-area">
+        <!-- Fight Card -->
+        <div class="ds-card">
+            <div class="card-md-banner">
+                <div class="fight-card-content">
+                    <h1>UFC 277: Nunez vs.Pena</h1>
+                    <h2>Dallas TX, United States</h2> 
+                </div>  
+                <div class="card-btn-container">
+                     <button onclick="myFunction()" class="card-btn ">FIGHT CARD</button>
+                 </div>  
+            </div>                
+        </div>
+        <!-- Medium Card -->
+        <div class="ds-card">
+            <div class="card-md-img"></div>
+            <div class="card-content">
+             <div class="card-content-text">
+               <p> Order NGannou Vs Gane Today!</p>
+             </div>
+             <div class="card-content-cta">
+                 <button class="card-btn white-txt red-bkgr"><nobr>PRE-ORDER</nobr></button>
+             </div>
+            </div>
+        </div>
+        <!-- Small Card -->
+        <div class="ds-card card-sm">
+            <div class="card-sm-img"></div>
+            <div class="card-content">
+             <div class="card-content-text">
+               <p> 30% Off UFC merch! June sale!</p>
+             </div>
+             <div class="card-content-cta">
+                 <button class="card-btn white-txt red-bkgr">SHOP</button>
+             </div>
+            </div>
+        </div>
+    </div>
+    <!--<section class="stats-header-container">
+        <div class="stats-header">
+            <div class="stats-header-away">
+                <span class="stats-header-score">14</span>
+                <span class="stats-header-logo">
+                    <img src="img/stats_imgs/OU_alt.svg" alt="OU">
+                </span>
+                <span class="stats-header-record">6-1</span>
+            </div>
+            <div class="stats-header-home">
+                <span class="stats-header-score">28</span>
+                <span class="stats-header-logo">
+                    <img src="img/stats_imgs/OKST.svg" alt="OKST">
+                </span>
+                <span class="stats-header-record">6-1</span>
+            </div>
+        </div>
+        <div class="stats-header-time">
+            <p>6:30</p>
+            <p>4th Quarter</p>
+        </div>
+    </section>
+    -->
+    <script>
+        function myFunction() {
+          window.location.href = "fight-card.html";
+        }
+      </script>
+</body>
+</html>

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fight Card</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header-margin">
+        <div onclick="myFunction()" class="header-back-arrow header-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+                <path d="M32.1 34.99L17.14 20 32.11 5 27.5.4 7.89 20l19.6 19.6 4.61-4.61z"/>
+            </svg>
+        </div>
+        <div class="header-logo">
+            <img src="img/event-logo/ufc.png" alt="UFC">
+        </div>
+        <div class="header-nav header-icon header-icon-selected">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+                <path d="M39.6 37.15v-4.9H20v4.9h19.6zm0-14.7v-4.9H.4v4.9h39.2zm0-14.7v-4.9H.4v4.9h39.2z"/>
+            </svg>
+        </div>
+    </header>
+    <!-- Title -->
+    <div class="content-area">
+        <div class="app-content-container">
+            <div class="module-title">
+                FIGHT CARD
+            </div>
+        </div>
+        <!-- Main & Prelim Tabs -->
+        <section class="team-switch-tabs-container">
+            <div class="team-switch-tabs">
+                <div class="team-tab-selected">
+                    MAIN
+                </div>
+                <div class="team-tab">
+                    PRELIM
+                </div>
+            </div>
+        </section>
+        <!-- Main & Prelim Tabs End -->
+
+        <!-- LIVE START -->
+        <section class="live-indicator">
+            <img src="/img/icons/live.png" alt="This is live">
+        </section>
+        <!-- LIVE END -->
+
+        <!-- Live fight card area -->
+
+        <!-- TABLE START 
+        <div class="ds-card">
+            <div class="card-stats">
+                <div class="card-stats-vs-title">
+                    <h3>Brandon Moreno vs Kai Kara France</h3>
+                </div>
+                <div class="round-time-fighters">
+                    <img src="img/card-assets/MORENO_BRANDON_.png" alt="Brandon Moreno">
+                    <div class="clock-round">
+                        <ul class="time">
+                            <li>ROUND</li>
+                            <li>2</li>
+                        </ul>
+                        <ul class="round">
+                            <li>TIME</li>
+                            <li>3:23</li>
+                        </ul>
+                    </div>
+                    <img src="img/card-assets/KARA-FRANCE_KAI_.png" alt="Kai Kara France">
+                </div>
+                <div class="live-stats-table">
+                    <table class="stats-table-container">
+                        <tbody>
+                          <tr>
+                            <td class="stats-values">126/201</td>
+                            <td class="stats-type">TOT STR</td>
+                            <td class="stats-values">130/239</td>
+                          </tr>
+                          <tr>
+                            <td class="stats-values">85/152</td>
+                            <td class="stats-type">SIG STR</td>
+                            <td class="stats-values">60/154</td>
+                          </tr>
+                          <tr>
+                            <td class="stats-values">3</td>
+                            <td class="stats-type">KD</td>
+                            <td class="stats-values">0</td>
+                          </tr>
+                          <tr>
+                            <td class="stats-values">0 of 0</td>
+                            <td class="stats-type">TD</td>
+                            <td class="stats-values">0 of 0</td>
+                          </tr>
+                          <tr>
+                            <td class="stats-values">1</td>
+                            <td class="stats-type">SUB ATT</td>
+                            <td class="stats-values">1</td>
+                          </tr>
+                          <tr>
+                            <td class="stats-values">11:49</td>
+                            <td class="stats-type">CONTROL</td>
+                            <td class="stats-values">0:00</td>
+                          </tr>
+                          <tr>
+                            <td class="stats-values">67 of 128</td>
+                            <td class="stats-type">HEAD</td>
+                            <td class="stats-values">54 of 144</td>
+                          </tr>
+                          <tr>
+                            <td class="stats-values">10 of 14</td>
+                            <td class="stats-type">BODY</td>
+                            <td class="stats-values">6 of 10</td>
+                          </tr>
+                          <tr>
+                            <td class="stats-values">8 of 10 </td>
+                            <td class="stats-type">LEGS</td>
+                            <td class="stats-values">0 of 0</td>
+                          </tr>
+                        </tbody>
+                        </table>
+                </div>
+            </div>
+        </div>
+         TABLE END -->
+
+        <!-- GRID START -->
+        <div class="ds-card">
+            <div class="card-stats">
+                <div class="live-stats-grid">
+                    <div class="round-time-fighters-grid">
+                        <span class="bold-roboto">Brandon Moreno</span>
+                        <span class="bold-roboto">vs</span>
+                        <span class="bold-roboto">Kai Kara France</span>
+                    </div>
+                    
+                        <div class="round-time-fighters-grid">
+                            <img src="img/card-assets/MORENO_BRANDON_.png" alt="Brandon Moreno">
+                            <div class="clock-round">
+                                <ul class="time">
+                                    <li class="bold-roboto">ROUND</li>
+                                    <li>2</li>
+                                </ul>
+                                <ul class="round">
+                                    <li class="bold-roboto">TIME</li>
+                                    <li>3:23</li>
+                                </ul>
+                            </div>
+                            <img src="img/card-assets/KARA-FRANCE_KAI_.png" alt="Kai Kara France">
+                        </div>
+                    
+                    <div>126/201</div>
+                    <div class="bold-roboto">TOT STR</div>
+                    <div>130/239</div>
+                    <div>85/152</div>
+                    <div class="bold-roboto">SIG STR</div>
+                    <div>60/154</div>
+                    <div>3</div>
+                    <div class="bold-roboto">KD</div>
+                    <div>0</div>
+                    <div>0 of 0</div>
+                    <div class="bold-roboto">TD</div>
+                    <div>0 of 0</div>
+                    <div>1</div>
+                    <div class="bold-roboto">SUB ATT</div>
+                    <div>1</div>
+                    <div>11:49</div>
+                    <div class="bold-roboto">CONTROL</div>
+                    <div>0:00</div>
+                    <div>67 of 128</div>
+                    <div class="bold-roboto">HEAD</div>
+                    <div>54 of 144</div>
+                    <div>10 of 14</div>
+                    <div class="bold-roboto">BODY</div>
+                    <div>6 of 10</div>
+                    <div>8 of 10</div>
+                    <div class="bold-roboto">LEGS</div>
+                    <div>0 of 0</div>
+                </div>
+            </div>
+        </div>
+        <!-- GRID END -->
+
+        <!-- Up next & Prev Sub tabs -->
+        <section class="ds-tabs-container">
+            <div class="ds-tabs">
+                <div class="tab-selected">UP NEXT</div>
+                <div class="tab">PREVIOUS</div>
+            </div>
+        </section>
+        <!-- Up next & Prev Sub tabs end -->
+    </div>
+    <div class="content-area">
+        <!-- Up Next smal cards-->
+        <div class="ds-card card-stats-sm">
+            <div class="card-stats">
+                <div class="live-stats-grid">
+                    <div class="round-time-fighters-grid">
+                        <span class="bold-roboto">Amanda Nunez</span>
+                        <span class="bold-roboto">vs</span>
+                        <span class="bold-roboto">Juliana Pena</span>
+                    </div>
+                    <div class="round-time-fighters-grid">
+                        <img src="img/card-assets/NUNES_AMANDA_.png" alt="Brandon Moreno">
+                        <div>
+                            <ul class="time">
+                                <li>Bantam Weight Bout</li>
+                                <li>+215 ODDS -255</li>
+                            </ul>
+                        </div>
+                        <img src="img/card-assets/PENA_JULIANNA_.png" alt="Kai Kara France">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ds-card card-stats-sm">
+            <div class="card-stats">
+                <div class="live-stats-grid">
+                    <div class="round-time-fighters-grid">
+                        <span class="bold-roboto">Amanda Nunez</span>
+                        <span class="bold-roboto">vs</span>
+                        <span class="bold-roboto">Juliana Pena</span>
+                    </div>
+                    <div class="round-time-fighters-grid">
+                        <img src="img/card-assets/NUNES_AMANDA_.png" alt="Brandon Moreno">
+                        <div>
+                            <ul class="time">
+                                <li>Bantam Weight Bout</li>
+                                <li>+215 ODDS -255</li>
+                            </ul>
+                        </div>
+                        <img src="img/card-assets/PENA_JULIANNA_.png" alt="Kai Kara France">
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    <script>
+        function myFunction() {
+          window.location.href = "index.html";
+        }
+      </script>
+</body>
+</html>
